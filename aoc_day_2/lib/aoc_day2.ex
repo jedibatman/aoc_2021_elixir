@@ -1,6 +1,6 @@
 defmodule AocDay2 do
   def run do
-    retrieve_input
+    retrieve_input()
     |> sliding_chunk_by_3
     |> compute_sliding_sum
     |> determine_deltas({0, 0})

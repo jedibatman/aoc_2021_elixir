@@ -1,7 +1,7 @@
 defmodule AocDay1 do
   def run do
-    input = retrieve_input
-    determine_deltas(input, {0, 0})
+    retrieve_input()
+    |> determine_deltas({0, 0})
   end
 
   defp retrieve_input do
